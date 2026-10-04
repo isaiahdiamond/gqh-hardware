@@ -219,4 +219,4 @@ Earlier versions of this design used 374, 178, 64 and 1 LUTs (the 1-LUT version 
 
 ## Final Submission
 
-- Devpost project URL:
+- Devpost project URL: https://devpost.com/software/gqh-fpga-hardware-optimization#updates
