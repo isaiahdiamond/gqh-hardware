@@ -3,6 +3,9 @@
 ## Team Members
 
 - Isaiah Diamond - isaiahdiamond8@yahoo.com
+- Samuel Altman - altmansam20@gmail.com
+- Hayden Veras - hayden.veras@ufl.edu
+- Maheer Bansari - bansari.ma@ufl.edu
 
 ## Project Overview
 
