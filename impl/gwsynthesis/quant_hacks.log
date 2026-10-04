@@ -2,8 +2,6 @@ GowinSynthesis start
 Running parser ...
 Analyzing Verilog file '/Users/isaiahdiamond/Desktop/quant_hacks/src/top.v'
 Compiling module 'top'("/Users/isaiahdiamond/Desktop/quant_hacks/src/top.v":1)
-Compiling module 'ltc'("/Users/isaiahdiamond/Desktop/quant_hacks/src/top.v":255)
-Compiling module 'ltc(N=16)'("/Users/isaiahdiamond/Desktop/quant_hacks/src/top.v":255)
 NOTE  (EX0101) : Current top module is "top"
 [5%] Running netlist conversion ...
 WARN  (CV0016) : Input reset_btn is unused("/Users/isaiahdiamond/Desktop/quant_hacks/src/top.v":3)

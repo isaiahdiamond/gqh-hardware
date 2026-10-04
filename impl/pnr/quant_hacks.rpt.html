@@ -83,7 +83,7 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 </tr>
 <tr>
 <td class="label">Created Time</td>
-<td>Sun Oct  4 00:26:23 2026
+<td>Sun Oct  4 02:10:06 2026
 </td>
 </tr>
 <tr>
@@ -97,24 +97,24 @@ table.detail_table th.label {  min-width: 8%; width: 8%; }
 <tr>
 <td class="label">Place & Route Process</td>
 <td>Running placement:
-   Placement Phase 0: CPU time = 0h 0m 0.007s, Elapsed time = 0h 0m 0.007s
-   Placement Phase 1: CPU time = 0h 0m 0.059s, Elapsed time = 0h 0m 0.059s
-   Placement Phase 2: CPU time = 0h 0m 0.018s, Elapsed time = 0h 0m 0.019s
-   Placement Phase 3: CPU time = 0h 0m 0.162s, Elapsed time = 0h 0m 0.159s
-   Total Placement: CPU time = 0h 0m 0.246s, Elapsed time = 0h 0m 0.244s
+   Placement Phase 0: CPU time = 0h 0m 0.008s, Elapsed time = 0h 0m 0.008s
+   Placement Phase 1: CPU time = 0h 0m 0.054s, Elapsed time = 0h 0m 0.054s
+   Placement Phase 2: CPU time = 0h 0m 0.001s, Elapsed time = 0h 0m 0.001s
+   Placement Phase 3: CPU time = 0h 0m 0.16s, Elapsed time = 0h 0m 0.151s
+   Total Placement: CPU time = 0h 0m 0.223s, Elapsed time = 0h 0m 0.214s
 Running routing:
    Routing Phase 0: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-   Routing Phase 1: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.031s
-   Routing Phase 2: CPU time = 0h 0m 0.157s, Elapsed time = 0h 0m 0.153s
+   Routing Phase 1: CPU time = 0h 0m 0.031s, Elapsed time = 0h 0m 0.03s
+   Routing Phase 2: CPU time = 0h 0m 0.052s, Elapsed time = 0h 0m 0.049s
    Routing Phase 3: CPU time = 0h 0m 0s, Elapsed time = 0h 0m 0s
-   Total Routing: CPU time = 0h 0m 0.188s, Elapsed time = 0h 0m 0.184s
+   Total Routing: CPU time = 0h 0m 0.083s, Elapsed time = 0h 0m 0.079s
 Generate output files:
-   CPU time = 0h 0m 0.498s, Elapsed time = 0h 0m 0.497s
+   CPU time = 0h 0m 0.554s, Elapsed time = 0h 0m 0.567s
 </td>
 </tr>
 <tr>
 <td class="label">Total Time and Memory Usage</td>
-<td>CPU time = 0h 0m 0.932s, Elapsed time = 0h 0m 0.925s, Peak memory usage = 647MB</td>
+<td>CPU time = 0h 0m 0.86s, Elapsed time = 0h 0m 0.86s, Peak memory usage = 660MB</td>
 </tr>
 </table>
 <br/>
@@ -129,23 +129,23 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">Logic</td>
-<td>399/20736</td>
-<td>2%</td>
+<td>0/20736</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --LUT,ALU,ROM16</td>
-<td>291(1 LUT, 290 ALU, 0 ROM16)</td>
+<td>0(0 LUT, 0 ALU, 0 ROM16)</td>
 <td>-</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --SSRAM(RAM16)</td>
-<td>18</td>
+<td>0</td>
 <td>-</td>
 </tr>
 <tr>
 <td class="label">Register</td>
-<td>552/15750</td>
-<td>4%</td>
+<td>0/15750</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --Logic Register as Latch</td>
@@ -154,8 +154,8 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --Logic Register as FF</td>
-<td>550/15552</td>
-<td>4%</td>
+<td>0/15552</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --I/O Register as Latch</td>
@@ -164,13 +164,13 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">&nbsp &nbsp --I/O Register as FF</td>
-<td>2/198</td>
-<td>2%</td>
+<td>0/198</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">CLS</td>
-<td>504/10368</td>
-<td>5%</td>
+<td>0/10368</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">I/O Port</td>
@@ -196,6 +196,11 @@ Generate output files:
 <td class="label"> &nbsp &nbsp --Inout Buf</td>
 <td>0</td>
 <td>-</td>
+</tr>
+<tr>
+<td class="label">BSRAM</td>
+<td>6 SDPB<br/>26 pROM<br/></td>
+<td>70%</td>
 </tr>
 </table>
 <h2><a name="I/O_Bank_Usage_Summary">I/O Bank Usage Summary:</a></h2>
@@ -252,8 +257,8 @@ Generate output files:
 </tr>
 <tr>
 <td class="label">LW</td>
-<td>3/8</td>
-<td>38%</td>
+<td>0/8</td>
+<td>0%</td>
 </tr>
 <tr>
 <td class="label">GCLK_PIN</td>
@@ -273,21 +278,6 @@ Generate output files:
 <td class="label">sys_clk_d</td>
 <td>PRIMARY</td>
 <td> TR TL BR BL</td>
-</tr>
-<tr>
-<td class="label">e</td>
-<td>LW</td>
-<td> -</td>
-</tr>
-<tr>
-<td class="label">bt</td>
-<td>LW</td>
-<td> -</td>
-</tr>
-<tr>
-<td class="label">p[17]</td>
-<td>LW</td>
-<td> -</td>
 </tr>
 </table>
 <br/>

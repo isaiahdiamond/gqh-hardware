@@ -1,11 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Module name="top" Register="552" Alu="130" Lut="1" Ssram="18" T_Register="552(552)" T_Alu="272(130)" T_Lut="1(1)" T_Ssram="18(18)">
- <SubModule name="cp1" Alu="18" T_Alu="18(18)"/>
- <SubModule name="cp2" Alu="18" T_Alu="18(18)"/>
- <SubModule name="cp3" Alu="18" T_Alu="18(18)"/>
- <SubModule name="cp4" Alu="18" T_Alu="18(18)"/>
- <SubModule name="cp5" Alu="17" T_Alu="17(17)"/>
- <SubModule name="cp6" Alu="17" T_Alu="17(17)"/>
- <SubModule name="cp7" Alu="18" T_Alu="18(18)"/>
- <SubModule name="cp8" Alu="18" T_Alu="18(18)"/>
-</Module>
+<Module name="top" Bsram="32" T_Bsram="32(32)"/>
