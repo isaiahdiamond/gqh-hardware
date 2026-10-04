@@ -2,7 +2,7 @@
 
 ## Team Members
 
-- Isaiah Diamond (email)
+- Isaiah Diamond - isaiahdiamond8@yahoo.com
 
 ## Project Overview
 
