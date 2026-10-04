@@ -186,6 +186,7 @@ Expected result:
 - Average measured round-trip latency: 5.91 ms (macOS host)
 - Idle time or buffering between response bytes (BL616 workaround): 11 idle bit-times (about 95 µs) between response bytes
 - Test/setup used: `22_robust_uart_test.py`, MacBook Pro over the board's USB-C port
+- The first packet of a run comes back in about 1.4–2.7 ms. Later packets take about 5.9 ms because the board's USB bridge (BL616) holds the reply before passing it to the PC. A test build that finished its reply 1 ms sooner (it started echoing before the request ended and dropped the idle gaps) measured the same 5.9 ms median, so the remaining latency is set by the bridge, not by the FPGA design.
 
 ### Logic Usage
 
