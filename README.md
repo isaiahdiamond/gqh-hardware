@@ -219,7 +219,4 @@ Earlier versions of this design used 374, 178, 64 and 1 LUTs (the 1-LUT version 
 
 ## Final Submission
 
-- GitHub repository URL:
 - Devpost project URL:
-
-This repository must stay public through judging and must not be deleted or renamed.
