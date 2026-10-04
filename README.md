@@ -1,4 +1,4 @@
-# GQH Hardware Track: Zero-Logic Moving-Average Trade Signal
+# GQH Hardware Track
 
 ## Team Members
 
